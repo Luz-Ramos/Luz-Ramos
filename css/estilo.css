@@ -1,0 +1,436 @@
+/* ESTILOS PARA MOBILE SCREEN */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@media only screen and (max-width: 600px) {
+  .column-4 img {
+    width: 100%; }
+  .img-fluid-2 {
+    max-width: 100%;
+    margin: auto; }
+  .column-8 {
+    width: 100%; }
+  .menu {
+    display: none; }
+  .contenedor {
+    background-color: rgba(255, 255, 255, 0.288);
+    width: 103%;
+    height: vh;
+    text-align: center;
+    margin: 20px auto;
+    display: block; }
+  .Experiencia {
+    display: block; }
+  .Experiencia div {
+    width: 100%; }
+  .contenedor-cursos {
+    display: block; } }
+
+/* ESTILOS PARA DESKTOP SCREEN */
+.img-fluid {
+  max-width: 333px;
+  height: auto; }
+
+.img-fluid-2 {
+  max-width: 85%;
+  height: auto; }
+
+.p-col-8 {
+  padding-left: 1%;
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  padding-bottom: 5%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif; }
+
+body {
+  background-color: #d7c0ee; }
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  color: #3f3d41; }
+
+.p1 {
+  padding: 20px;
+  line-height: 1.5;
+  width: 300px;
+  height: 400px;
+  overflow: auto;
+  border: solid 3px #a057ca;
+  margin: 20px auto; }
+
+.p2 {
+  width: 700px;
+  padding: 20px;
+  color: #561763;
+  border-top: dashed red;
+  border-right: solid 10px cyan;
+  border-bottom: dotted 7px green;
+  border-left: solid 12px yellow;
+  margin: 30px;
+  border-radius: 10%; }
+
+img {
+  display: block;
+  margin: 10px; }
+
+h3 {
+  display: inline-block;
+  padding: 20px; }
+
+.none {
+  display: none; }
+
+.caja {
+  width: 100px;
+  height: 100px;
+  margin: 30px; }
+
+.positions {
+  position: relative; }
+
+.scroll {
+  height: 500px; }
+
+/*a partir de aca el estilo del menu*/
+.menu {
+  background-color: #71448b;
+  list-style: none;
+  margin: 20px auto;
+  text-align: center; }
+
+.menu li {
+  display: inline-block;
+  text-align: center; }
+
+.menu li a {
+  padding: 0px;
+  margin: 1px;
+  color: #e0c9db;
+  text-decoration: none;
+  display: inline-block; }
+
+.menu li a:hover {
+  color: black; }
+
+.contenedor {
+  background-color: rgba(255, 255, 255, 0.288);
+  width: 90%;
+  height: vh;
+  text-align: center;
+  margin: 20px auto;
+  /*a partir de aca se transforma en grid*/
+  display: flex;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(3 1fr);
+  gap: 10px;
+  grid-template-areas: "ABC ABC ABC"
+ "DG E F"
+ "DG HI HI"; }
+
+.hijo {
+  border: 2px red solid;
+  background-color: #5454c0; }
+
+.ABC {
+  grid-area: ABC;
+  text-align: center; }
+
+.E {
+  background-color: red;
+  grid-area: E; }
+
+.F {
+  background-color: #34b92b;
+  grid-area: F; }
+
+.DG {
+  background-color: #00ffea;
+  grid-area: DG; }
+
+.HI {
+  background-color: #9500ff;
+  grid-area: HI; }
+
+.ABC h3 {
+  text-align: center;
+  margin: 5px; }
+
+.logosfooter img {
+  height: auto;
+  width: 50px; }
+
+.logosfooter {
+  display: flex;
+  justify-content: center; }
+
+.logosfooter img:hover {
+  width: 60px; }
+
+.column-4 {
+  width: 30%; }
+
+.column-4 img:hover {
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.295); }
+
+#TASCANI {
+  background-image: url(../IMAGES/tascani-01.jpg);
+  width: 33%;
+  height: 491px;
+  background-size: 100%;
+  text-align: center;
+  background-repeat: no-repeat; }
+
+#OXFORD {
+  background-image: url(../IMAGES/oxford.jpg);
+  width: 33%;
+  height: auto;
+  height: 491px;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+#YOU {
+  background-image: url(../IMAGES/youandme.jpg);
+  width: 33%;
+  height: auto;
+  height: 491px;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.Experiencia {
+  display: flex;
+  width: 82%;
+  height: 491px;
+  background-size: 100%;
+  margin: 0 auto; }
+
+.Experiencia div {
+  margin: 30px; }
+
+.Lista {
+  list-style-type: circle;
+  padding-left: 30px;
+  padding: 5% 5% 3% 5%; }
+
+.Lista li {
+  line-height: 1.5;
+  margin-bottom: 3%; }
+
+.exp-tabla {
+  margin: 0 auto;
+  margin-bottom: 60px; }
+
+.exp-tabla th {
+  padding: 20px; }
+
+.exp-tabla td {
+  padding: 20px; }
+
+#ELY {
+  background-image: url(../IMAGES/ELY.jpg);
+  width: 33%;
+  height: auto;
+  height: 491px;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+#NEKEVA {
+  background-image: url(../IMAGES/NEKEVA.jpg);
+  width: 33%;
+  height: auto;
+  height: 465px;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+#NISSIM {
+  background-image: url(../IMAGES/NISSIM.jpg);
+  width: 33%;
+  height: auto;
+  height: 491px;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.contenedor-cursos {
+  background-color: rgba(255, 255, 255, 0.288);
+  width: 70%;
+  height: vh;
+  text-align: left;
+  margin: 10px auto;
+  /*a partir de aca se transforma en grid*/
+  display: grid;
+  grid-template-columns: 1fr 30fr 1fr;
+  grid-template-rows: repeat(3 1fr);
+  gap: 10px;
+  grid-template-areas: "ABC ABC ABC"
+ "DG E F"
+ "DG HI HI"; }
+
+.contenedor-cursos h3 {
+  padding-left: 0%; }
+
+/* estilo del menu */
+h2 {
+  vertical-align: center;
+  text-align: center; }
+
+html, body {
+  margin: 0;
+  height: 100%; }
+
+* {
+  font-family: "Raleway";
+  box-sizing: border-box; }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center; }
+
+.menu > li {
+  margin: 0 1rem;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 17px; }
+
+.menu-button-container {
+  display: none;
+  height: 0%;
+  width: 170%;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+#menu-toggle {
+  display: none; }
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+  margin-bottom: -12%; }
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px; }
+
+.menu-button::after {
+  content: '';
+  margin-top: 8px; }
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg); }
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0); }
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg); }
+
+@media (max-width: 700px) {
+  .column-4 {
+    width: 100%; }
+  .img-fluid-2 {
+    max-width: 100%;
+    margin: auto; }
+  .menu-button-container {
+    display: flex; }
+  .menu {
+    position: initial;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center; }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1); }
+  #menu-toggle:checked ~ .menu li {
+    border: 1px solid #a49393;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1); }
+  .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white; }
+  .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444; }
+  .contenedor {
+    display: block; }
+  .Experiencia {
+    display: block;
+    margin: 0; }
+  .img-exp-2 {
+    width: 100%; }
+  #TASCANI {
+    background-image: url(../IMAGES/tascani-01.jpg);
+    width: 100%; }
+  #OXFORD {
+    background-image: url(../IMAGES/oxford.jpg);
+    width: 100%; }
+  #YOU {
+    background-image: url(../IMAGES/youandme.jpg);
+    width: 100%; }
+  #ELY {
+    background-image: url(../IMAGES/ELY.jpg);
+    width: 100%; }
+  #NEKEVA {
+    background-image: url(../IMAGES/NEKEVA.jpg);
+    width: 100%; }
+  #NISSIM {
+    background-image: url(../IMAGES/NISSIM.jpg);
+    width: 100%; }
+  .exp-alt {
+    padding-top: 1040px; }
+  .col-8-p {
+    width: 100%;
+    padding: 15px; }
+  .contenedor-cursos {
+    display: block; } }
+
+/* fin menu */
+section {
+  background-color: #82699d; }
+
+.exp-a {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 40px; }
+
+.exp-a a {
+  padding: 20px;
+  background-color: #71448b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px; }
+
+.formulario {
+  background-color: #d7c0ee;
+  text-align: center; }
+
+.table-skills {
+  margin: 0 auto; }
